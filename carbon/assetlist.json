@@ -464,12 +464,12 @@
         {
           "type": "ibc",
           "counterparty": {
-            "chain_name": "celestia",
-            "base_denom": "utia",
-            "channel_id": "channel-2"
+            "chain_name": "osmosis", 
+            "base_denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+            "channel_id": "channel-188"
           },
           "chain": {
-            "channel_id": "channel-6994",
+            "channel_id": "channel-0",
             "path": "transfer/channel-6994/utia"
           }
         }
@@ -513,8 +513,8 @@
         {
           "type": "liquid-stake",
           "counterparty": {
-            "chain_name": "celestia",
-            "base_denom": "utia"
+            "chain_name": "osmosis",
+            "base_denom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
           },
           "provider": "MilkyWay"
         }
