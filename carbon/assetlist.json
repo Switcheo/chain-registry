@@ -62,7 +62,7 @@
           "exponent": 0
         },
         {
-          "denom": "dusd",
+          "denom": "usd",
           "exponent": 18,
           "aliases": [
             "USD"
@@ -72,7 +72,7 @@
       "type_asset": "sdk.coin",
       "base": "cgt/1",
       "name": "Demex Grouped USD",
-      "display": "dusd",
+      "display": "usd",
       "symbol": "USD",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/carbon-grouped-usd.png",
@@ -105,11 +105,11 @@
           "type": "bridge",
           "counterparty": {
             "chain_name": "neo",
-            "base_denom": "2a4c9a4d4022678b03ef1bbe0834f966460dc448",
-            "contract": "6775ebf53c7a201b6b6c316d51c14aedf5bdb38e"
+            "base_denom": "0x48c40d4666f93408be1bef038b6722404d9a4c2a",
+            "contract": "0x8eb3bdf5ed4ac1516d316c6b1b207a3cf5eb7567"
           },
           "chain": {
-            "contract": "6775ebf53c7a201b6b6c316d51c14aedf5bdb38e"
+            "contract": "0x8eb3bdf5ed4ac1516d316c6b1b207a3cf5eb7567"
           },
           "provider": "PolyNetwork"
         }
@@ -538,10 +538,10 @@
           "counterparty": {
             "chain_name": "zilliqa",
             "base_denom": "wei",
-            "contract": "d73c6b871b4d0e130d64581993b745fc938a5be7"
+            "contract": "0xd73c6b871b4d0e130d64581993b745fc938a5be7"
           },
           "chain": {
-            "contract": "d73c6b871b4d0e130d64581993b745fc938a5be7"
+            "contract": "0xd73c6b871b4d0e130d64581993b745fc938a5be7"
           },
           "provider": "PolyNetwork"
         }
